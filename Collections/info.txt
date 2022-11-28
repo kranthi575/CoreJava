@@ -1,0 +1,23 @@
+package java.util.*
+
+Inside any of Collection What kind of data is been stored?
+
+	A.Primitive
+		Even if the programmer gives the primitive data,Internally from JDK1.5Version JVM will use 
+		wrapper class concepts to convert primitive type of data to object and it would be stored
+		
+	B. Object
+		it stores as object 
+
+Collection(I)--->It is root for all type of collection
+
+List(I)
+	a.ArrayList
+	b.LinkedList
+		:To utilise the scattered/dispursed memory in effective way we use LinkedList
+		i)SinglyLinkedList
+		ii)DoublyLinkedList
+		
+		Note: All the Node creations will be taken care by JVM
+		Java doesn't support the concept of pointers
+		Java is "abstract high level language"
